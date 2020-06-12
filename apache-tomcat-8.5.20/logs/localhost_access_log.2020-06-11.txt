@@ -1,0 +1,11 @@
+0:0:0:0:0:0:0:1 - - [11/Jun/2020:10:09:33 +0530] "GET / HTTP/1.1" 200 11250
+0:0:0:0:0:0:0:1 - - [11/Jun/2020:10:09:33 +0530] "GET /asf-logo-wide.svg HTTP/1.1" 200 26447
+0:0:0:0:0:0:0:1 - - [11/Jun/2020:10:09:37 +0530] "GET /manager/html HTTP/1.1" 401 2473
+0:0:0:0:0:0:0:1 - admin [11/Jun/2020:10:09:41 +0530] "GET /manager/html HTTP/1.1" 200 21654
+0:0:0:0:0:0:0:1 - - [11/Jun/2020:10:09:41 +0530] "GET /manager/images/asf-logo.svg HTTP/1.1" 200 19698
+0:0:0:0:0:0:0:1 - admin [11/Jun/2020:10:10:11 +0530] "POST /manager/html/stop;jsessionid=6A1568F08D43E98B56B4FB3AC5F34705?path=/helloaap&org.apache.catalina.filters.CSRF_NONCE=56781F69BE55A66DEB7EE6298F87BF18 HTTP/1.1" 200 19487
+0:0:0:0:0:0:0:1 - admin [11/Jun/2020:10:10:16 +0530] "POST /manager/html/undeploy?path=/helloaap&org.apache.catalina.filters.CSRF_NONCE=A48DF6DDF8A0B3332377ED19C5D4B8D3 HTTP/1.1" 200 18331
+0:0:0:0:0:0:0:1 - admin [11/Jun/2020:10:10:21 +0530] "POST /manager/html/undeploy?path=/hellojenkins-0.0.1-SNAPSHOT&org.apache.catalina.filters.CSRF_NONCE=CBB70EEBD7E33038B93B31138CA0A8EF HTTP/1.1" 200 16512
+0:0:0:0:0:0:0:1 - admin [11/Jun/2020:10:10:28 +0530] "POST /manager/html/undeploy?path=/examples&org.apache.catalina.filters.CSRF_NONCE=6FFC47C5F0675D5F167A10A33E900CC9 HTTP/1.1" 200 14765
+0:0:0:0:0:0:0:1 - admin [11/Jun/2020:10:13:34 +0530] "GET /manager/html/undeploy?path=/examples&org.apache.catalina.filters.CSRF_NONCE=6FFC47C5F0675D5F167A10A33E900CC9 HTTP/1.1" 200 14787
+0:0:0:0:0:0:0:1 - admin [11/Jun/2020:10:13:41 +0530] "GET /manager/html/undeploy?path=/examples&org.apache.catalina.filters.CSRF_NONCE=6FFC47C5F0675D5F167A10A33E900CC9 HTTP/1.1" 200 14787

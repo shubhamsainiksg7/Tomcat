@@ -1,0 +1,61 @@
+11-Jun-2020 10:09:02.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.20
+11-Jun-2020 10:09:02.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 2 2017 21:35:49 UTC
+11-Jun-2020 10:09:02.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.20.0
+11-Jun-2020 10:09:02.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+11-Jun-2020 10:09:02.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-91-generic
+11-Jun-2020 10:09:02.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Jun-2020 10:09:02.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+11-Jun-2020 10:09:02.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.6+10-post-Ubuntu-1ubuntu118.04.1
+11-Jun-2020 10:09:02.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+11-Jun-2020 10:09:02.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/dz-jp-11/Documents/Tomcat/apache-tomcat-8.5.20
+11-Jun-2020 10:09:02.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/dz-jp-11/Documents/Tomcat/apache-tomcat-8.5.20
+11-Jun-2020 10:09:02.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/dz-jp-11/Documents/Tomcat/apache-tomcat-8.5.20/conf/logging.properties
+11-Jun-2020 10:09:02.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Jun-2020 10:09:02.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-Jun-2020 10:09:02.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-Jun-2020 10:09:02.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/dz-jp-11/Documents/Tomcat/apache-tomcat-8.5.20
+11-Jun-2020 10:09:02.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/dz-jp-11/Documents/Tomcat/apache-tomcat-8.5.20
+11-Jun-2020 10:09:02.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/dz-jp-11/Documents/Tomcat/apache-tomcat-8.5.20/temp
+11-Jun-2020 10:09:02.549 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+11-Jun-2020 10:09:02.616 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+11-Jun-2020 10:09:02.630 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Jun-2020 10:09:02.656 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-Jun-2020 10:09:02.657 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Jun-2020 10:09:02.657 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 975 ms
+11-Jun-2020 10:09:02.756 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-Jun-2020 10:09:02.757 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.20
+11-Jun-2020 10:09:02.836 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/dz-jp-11/Documents/Tomcat/apache-tomcat-8.5.20/webapps/hellojenkins-0.0.1-SNAPSHOT.war]
+11-Jun-2020 10:09:03.989 WARNING [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+11-Jun-2020 10:09:07.632 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Jun-2020 10:09:07.910 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/dz-jp-11/Documents/Tomcat/apache-tomcat-8.5.20/webapps/hellojenkins-0.0.1-SNAPSHOT.war] has finished in [5,073] ms
+11-Jun-2020 10:09:07.957 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/dz-jp-11/Documents/Tomcat/apache-tomcat-8.5.20/webapps/helloaap.war]
+11-Jun-2020 10:09:08.621 WARNING [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+11-Jun-2020 10:09:11.115 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Jun-2020 10:09:11.172 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/dz-jp-11/Documents/Tomcat/apache-tomcat-8.5.20/webapps/helloaap.war] has finished in [3,215] ms
+11-Jun-2020 10:09:11.173 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/dz-jp-11/Documents/Tomcat/apache-tomcat-8.5.20/webapps/host-manager]
+11-Jun-2020 10:09:11.227 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/dz-jp-11/Documents/Tomcat/apache-tomcat-8.5.20/webapps/host-manager] has finished in [54] ms
+11-Jun-2020 10:09:11.228 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/dz-jp-11/Documents/Tomcat/apache-tomcat-8.5.20/webapps/manager]
+11-Jun-2020 10:09:11.256 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/dz-jp-11/Documents/Tomcat/apache-tomcat-8.5.20/webapps/manager] has finished in [28] ms
+11-Jun-2020 10:09:11.256 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/dz-jp-11/Documents/Tomcat/apache-tomcat-8.5.20/webapps/examples]
+11-Jun-2020 10:09:12.138 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/dz-jp-11/Documents/Tomcat/apache-tomcat-8.5.20/webapps/examples] has finished in [882] ms
+11-Jun-2020 10:09:12.138 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/dz-jp-11/Documents/Tomcat/apache-tomcat-8.5.20/webapps/ROOT]
+11-Jun-2020 10:09:12.152 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/dz-jp-11/Documents/Tomcat/apache-tomcat-8.5.20/webapps/ROOT] has finished in [14] ms
+11-Jun-2020 10:09:12.153 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/dz-jp-11/Documents/Tomcat/apache-tomcat-8.5.20/webapps/docs]
+11-Jun-2020 10:09:12.178 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/dz-jp-11/Documents/Tomcat/apache-tomcat-8.5.20/webapps/docs] has finished in [24] ms
+11-Jun-2020 10:09:12.182 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9090"]
+11-Jun-2020 10:09:12.202 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+11-Jun-2020 10:09:12.211 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 9553 ms
+11-Jun-2020 10:10:15.836 INFO [http-nio-9090-exec-2] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/helloaap]] after stop() had already been called. The second call will be ignored.
+11-Jun-2020 10:10:16.371 INFO [http-nio-9090-exec-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/helloaap]
+11-Jun-2020 10:10:21.247 INFO [http-nio-9090-exec-9] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/hellojenkins-0.0.1-SNAPSHOT]
+11-Jun-2020 10:10:28.729 INFO [http-nio-9090-exec-3] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/examples]
+11-Jun-2020 16:49:10.041 WARNING [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+11-Jun-2020 16:49:15.389 WARNING [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+11-Jun-2020 16:50:02.394 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+11-Jun-2020 16:50:02.395 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9090"]
+11-Jun-2020 16:50:02.448 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+11-Jun-2020 16:50:02.499 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+11-Jun-2020 16:50:02.523 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9090"]
+11-Jun-2020 16:50:02.526 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+11-Jun-2020 16:50:02.527 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9090"]
+11-Jun-2020 16:50:02.529 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

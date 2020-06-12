@@ -1,0 +1,12 @@
+0:0:0:0:0:0:0:1 - - [18/May/2020:14:25:33 +0530] "GET / HTTP/1.1" 200 11250
+0:0:0:0:0:0:0:1 - - [18/May/2020:14:25:35 +0530] "GET /manager/status HTTP/1.1" 401 2473
+0:0:0:0:0:0:0:1 - admin [18/May/2020:14:25:39 +0530] "GET /manager/status HTTP/1.1" 200 7070
+127.0.0.1 - admin [18/May/2020:14:27:07 +0530] "GET /manager/text/list HTTP/1.1" 200 196
+127.0.0.1 - admin [18/May/2020:14:27:09 +0530] "PUT /manager/text/deploy?path=%2Fhellojenkins-0.0.1-SNAPSHOT HTTP/1.1" 200 84
+0:0:0:0:0:0:0:1 - - [18/May/2020:14:27:36 +0530] "GET / HTTP/1.1" 200 11250
+0:0:0:0:0:0:0:1 - admin [18/May/2020:14:27:39 +0530] "GET /manager/html HTTP/1.1" 200 18277
+127.0.0.1 - admin [18/May/2020:14:28:51 +0530] "GET /manager/text/list HTTP/1.1" 200 263
+127.0.0.1 - admin [18/May/2020:14:28:52 +0530] "PUT /manager/text/deploy?path=%2Fhelloaap HTTP/1.1" 200 65
+0:0:0:0:0:0:0:1 - admin [18/May/2020:14:29:26 +0530] "GET /manager/html HTTP/1.1" 200 19981
+0:0:0:0:0:0:0:1 - - [18/May/2020:14:31:09 +0530] "GET /helloaap/ HTTP/1.1" 404 1079
+0:0:0:0:0:0:0:1 - - [18/May/2020:14:31:29 +0530] "GET /helloapp/hello HTTP/1.1" 404 1084
